@@ -9,7 +9,6 @@ allow_failures:
 script:
   -  curl -L https://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -o php-cs-fixer
   -  sudo chmod a+x php-cs-fixer
-  -  php php-cs-fixer fix . -vv --dry-run
 
 notifications:
   slack: esgi-iw:le3cxpHNrBStEk9WiEshY3Kv
