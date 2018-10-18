@@ -10,6 +10,14 @@ script:
   -  curl -L https://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -o php-cs-fixer
   -  sudo chmod a+x php-cs-fixer
 
+deploy:
+  provider: heroku
+  api_key:
+    secure: f570fbf3-913f-4dc5-944f-cedcd570efb6
+  app: app-test-name1
+  on:
+    repo: envt-collaboratif/Unsecure
+
 notifications:
   slack: esgi-iw:le3cxpHNrBStEk9WiEshY3Kv
   email:
