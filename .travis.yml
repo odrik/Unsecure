@@ -13,7 +13,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: f570fbf3-913f-4dc5-944f-cedcd570efb6
+    secure: 6afc1864-c15c-4cae-b93a-49555f7085d5
   app: app-test-name1
   on:
     repo: envt-collaboratif/Unsecure
