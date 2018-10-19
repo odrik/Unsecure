@@ -46,5 +46,24 @@
 		composer install
         
 		docker-compose up -d
+		
+- ## GitHub Pages
+		https://envt-collaboratif.github.io
+	
+- ## Travis-CI
+		Linked to Travis-CI (for Test and Deploy with confidence)
+		
+ 		Notifications enabled (successes & failures) :
+ 		- Slack
+ 		- E-mail
+		
+- ## Codacy
+		Linked to Codacy (code reviewing)
+
+- ## Heroku
+		Linked to Heroku
+
+
+
 
 
