@@ -1,0 +1,30 @@
+language: php
+ 
+php:
+ - 5.5
+ - 7.0
+ 
+allow_failures:
+   - php: 7.0
+script:
+  -  curl -L https://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -o php-cs-fixer
+  -  sudo chmod a+x php-cs-fixer
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: 6afc1864-c15c-4cae-b93a-49555f7085d5
+  app: app-test-name1
+  on:
+    repo: envt-collaboratif/Unsecure
+
+notifications:
+  slack: esgi-iw:le3cxpHNrBStEk9WiEshY3Kv
+  email:
+    recipients:
+      - audricmati@gmail.com
+      - valentin.varveropoulos@hotmail.fr
+      - thomas.mallet45@gmail.com
+      - aboudoukadim@gmail.com
+    on_success: always
+    on_failure: always
