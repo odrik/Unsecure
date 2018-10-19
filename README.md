@@ -1,5 +1,7 @@
 # Welcome 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/831b6679c05a4a1894ca12b802707d39)](https://app.codacy.com/app/odrik/Unsecure?utm_source=github.com&utm_medium=referral&utm_content=envt-collaboratif/Unsecure&utm_campaign=Badge_Grade_Dashboard)
+
   ## Verified commit
 
  - ## Installing GPG
