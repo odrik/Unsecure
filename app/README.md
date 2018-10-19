@@ -40,11 +40,9 @@
         
 		git commit -S -m “commit”
 
-
  - ## Install project
 
 		composer install
         
 		docker-compose up -d
-
 
